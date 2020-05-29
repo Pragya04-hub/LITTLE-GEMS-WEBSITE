@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Languages for Rhymes</title>
+        <style>
+            *
+            {
+                margin:0;
+                padding:0;
+            }
+            header
+            {
+                background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pic2.jpg);
+                 height:105vh;
+                 background-size: cover;
+                 background-position:center;
+            }
+            body
+            {
+                font-family: monospace;
+            }
+            .container{
+                display:grid;
+               grid-template-columns: 1fr 2fr 1fr;
+               
+                
+                
+            }
+              .container > div{
+                  
+                  padding:1em;
+                  margin-top: 20%;
+                  margin-left: 20%;
+                  
+              }
+              .nested
+              {
+                  display:grid;
+                  
+                   grid-auto-rows:80px;
+                  margin-left: 40%;
+                  margin-right: 30%;
+                  
+                  
+              }
+              .nested > div
+              {
+                  border:#333 2px solid;
+                  padding:1em; 
+                  background-color: burlywood;
+                  font-size: 20px;
+                  font-weight: bold;
+                  font-family: Arial, Helvetica, sans-serif;         
+              }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container" style="text-align: center;">
+                <div style="position: relative; left: 503px; font-size:xx-large; font-weight:bold; color:floralwhite">SELECT LANGUAGE</div>
+                <div class="nested">
+                  <div>HINDI</div>
+                  <div >ENGLISH</div>
+                  <div >TELEGU</div>
+                  <div >TAMIL</div>
+                  <div >GUJARATI</div>
+                  
+                </div>
+
+                
+            </div>
+
+            
+        </header>
+    </body>
+</html>
